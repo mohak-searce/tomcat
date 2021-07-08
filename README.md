@@ -5,7 +5,7 @@ This repository contains files to run a sample application on Tomcat 8 and demon
 
 ## The Docker file
 
-1. Builds the tomcat 8.5 instance from scratch
+1. Builds the tomcat 8.5 instance from scratch.
 2. Clones the source code of a sample web application (You can substitute that with your own git repo)
 3. Builds the application using maven
 4. Copies the built war file to the webapps directory as ROOT.war
